@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<tools name=":xliff:4DPopTool" picture="4DPop.png">
+	
+	<tool name=":xliff:4DPopTool_1" method="pasteboard_explorer"/>
+	<tool name=":xliff:4DPopTool_2" method="pasteboard_drop_explorer"/>
+	
+</tools>
