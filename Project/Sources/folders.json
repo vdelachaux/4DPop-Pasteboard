@@ -1,0 +1,51 @@
+{
+	"(Clipboard)": {
+		"methods": [
+			"(4DPop_clipboardHistory)",
+			"(clipboard_HISTORY_START)",
+			"(clipboard_HISTORY)",
+			"(COMPILER_clipboard)"
+		],
+		"forms": [
+			"(CLIPBOARD_HISTORY)"
+		]
+	},
+	"component": {
+		"groups": [
+			"private",
+			"public"
+		],
+		"methods": [
+			"COMPILER_pastboard"
+		]
+	},
+	"private": {
+		"methods": [
+			"pastboard_Get_data_Types",
+			"pasteboard_drop_viewer",
+			"pasteboard_viewer"
+		],
+		"forms": [
+			"pasteboard_drop_viewer",
+			"pasteboard_viewer"
+		]
+	},
+	"public": {
+		"methods": [
+			"pasteboard_drop_explorer",
+			"pasteboard_explorer"
+		]
+	},
+	"tools": {
+		"methods": [
+			"Compiler_tools",
+			"noError",
+			"Obj_CENTER"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Clipboard)"
+		]
+	}
+}

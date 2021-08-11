@@ -1,0 +1,26 @@
+.default {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+
+.System_Petit {
+	font-family: Lucida Grande;
+	font-size: 11px;
+}
+
+.XButtons {
+	font-family: System Font;
+	font-size: 13px;
+}
+
+.XLabel {
+	font-family: System Font;
+	font-size: 10px;
+}
+
+.XTextsBold {
+	font-family: System Font;
+	font-size: 13px;
+	font-weight: bold;
+}
+

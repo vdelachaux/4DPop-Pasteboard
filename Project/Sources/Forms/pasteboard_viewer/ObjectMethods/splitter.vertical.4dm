@@ -1,0 +1,1 @@
+Obj_CENTER("none"; "pastboard.txt")
