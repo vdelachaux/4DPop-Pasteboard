@@ -16,7 +16,7 @@
 			"public"
 		],
 		"methods": [
-			"COMPILER_pastboard"
+			"COMPILER_pasteboard"
 		]
 	},
 	"private": {
@@ -32,8 +32,8 @@
 	},
 	"public": {
 		"methods": [
-			"pasteboard_drop_explorer",
-			"pasteboard_explorer"
+			"dragAndDropExplorer",
+			"pasteboardExplorer"
 		]
 	},
 	"tools": {

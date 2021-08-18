@@ -13,7 +13,7 @@ C_POINTER:C301($1)
 C_LONGINT:C283($Lon_parameters)
 
 If (False:C215)
-	C_POINTER:C301(pasteboard_drop_explorer; $1)
+	C_POINTER:C301(dragAndDropExplorer; $1)
 End if 
 
 // ----------------------------------------------------

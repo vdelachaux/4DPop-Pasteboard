@@ -19,7 +19,7 @@ Case of
 		//______________________________________________________
 	: ($Lon_formEvent=On Load:K2:1)
 		
-		COMPILER_pastboard
+		COMPILER_pasteboard
 		
 		(OBJECT Get pointer:C1124(Object named:K67:5; "cb.auto-update"))->:=1
 		

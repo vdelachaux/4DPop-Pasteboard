@@ -70,7 +70,7 @@ Case of
 		//___________________________________________________________
 	: ($Txt_entryPoint="_declarations")
 		
-		COMPILER_pastboard
+		COMPILER_pasteboard
 		
 		//___________________________________________________________
 	: ($Txt_entryPoint="_init")

@@ -15,10 +15,10 @@ End if
 If (False:C215)  // <public>
 	
 	// ----------------------------------------------------
-	C_POINTER:C301(pasteboard_drop_explorer; $1)
+	C_POINTER:C301(dragAndDropExplorer; $1)
 	
 	// ----------------------------------------------------
-	C_POINTER:C301(pasteboard_explorer; $1)
+	C_POINTER:C301(pasteboardExplorer; $1)
 	
 	// ----------------------------------------------------
 End if   // </public>
