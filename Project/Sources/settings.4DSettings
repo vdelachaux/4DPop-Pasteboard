@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="18">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="19">
 	<com.4d>
 		<compiler>
 			<options compilation_path="3" fat_binary="true" target="all"/>
@@ -7,7 +7,7 @@
 		</compiler>
 		<database>
 			<cache size_fixed="32" size_maximum="100" size_reserved="128"/>
-			<misc standard_xpath="false"/>
+			<misc prefer_null_than_blank_values="false" standard_xpath="true"/>
 		</database>
 		<interface>
 			<user print_progress="false"/>
