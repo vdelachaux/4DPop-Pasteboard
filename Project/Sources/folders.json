@@ -1,4 +1,7 @@
 {
+	"_o_": {},
+	"- #️⃣ API": {},
+	"-👥 NAMESPACE": {},
 	"(Clipboard)": {
 		"methods": [
 			"(4DPop_clipboardHistory)",
@@ -10,17 +13,21 @@
 			"(CLIPBOARD_HISTORY)"
 		]
 	},
-	"component": {
+	"(component)": {
 		"groups": [
-			"private",
-			"public"
-		],
-		"methods": [
-			"COMPILER_pasteboard"
+			"(private)",
+			"(public)"
 		]
 	},
-	"private": {
+	"(private)": {},
+	"(public)": {},
+	"(tools)": {},
+	"# 🚧 DEV": {},
+	"♻️ LIBRAIRIES": {},
+	"⚙️ MACROS": {},
+	"📦 COMPONENT": {
 		"methods": [
+			"COMPILER_pasteboard",
 			"pastboard_Get_data_Types",
 			"pasteboard_drop_viewer",
 			"pasteboard_viewer"
@@ -30,22 +37,26 @@
 			"pasteboard_viewer"
 		]
 	},
-	"public": {
-		"methods": [
-			"dragAndDropExplorer",
-			"pasteboardExplorer"
-		]
-	},
-	"tools": {
+	"🛠️ Tools": {
 		"methods": [
 			"Compiler_tools",
 			"noError",
 			"Obj_CENTER"
 		]
 	},
+	"4️⃣ 4DPop": {
+		"methods": [
+			"_4DPopPastebooard",
+			"COMPILER_4DPop",
+			"dragContainer",
+			"pasteboard"
+		]
+	},
 	"trash": {
 		"groups": [
-			"(Clipboard)"
+			"(Clipboard)",
+			"(component)",
+			"(tools)"
 		]
 	}
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<appMaker>
+    <info.plist CFBundleGetInfoString="18" CFBundleLongVersionString="18" CFBundleShortVersionString="18" NSHumanReadableCopyright="©2011-{currentYear}"/>
+    <options close="true" delete_mac_content="true" increment_version="true" notarize="true" zip_source="false"/>
+    <copy>
+        <array>
+            <item>4DPop Pasteboard.htm</item>
+            <item>Info.plist</item>
+            <item>SOURCES/</item>
+            <item>Resources/InfoPlist.strings</item>
+        </array>
+    </copy>
+    <reveal path=""/>
+    <delete>
+        <array>
+            <item>./Resources/php.ini</item>
+        </array>
+    </delete>
+</appMaker>
