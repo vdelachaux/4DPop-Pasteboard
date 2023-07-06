@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <appMaker>
-    <info.plist CFBundleGetInfoString="18" CFBundleLongVersionString="18" CFBundleShortVersionString="18" NSHumanReadableCopyright="©2011-{currentYear}"/>
+    <info.plist CFBundleGetInfoString="18" CFBundleLongVersionString="18" CFBundleShortVersionString="18" NSHumanReadableCopyright="©vdl 2011-{currentYear}"/>
     <options close="true" delete_mac_content="true" increment_version="true" notarize="true" zip_source="false"/>
     <copy>
         <array>

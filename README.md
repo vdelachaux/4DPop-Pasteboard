@@ -3,6 +3,7 @@
 ![code-size](https://img.shields.io/github/languages/code-size/vdelachaux/4DPop-Pasteboard.svg)
 [![license](https://img.shields.io/github/license/vdelachaux/4DPop-Pasteboard)](LICENSE)
 [![release](https://img.shields.io/github/v/release/vdelachaux/4DPop-Pasteboard?include_prereleases)](https://github.com/vdelachaux/4DPop-Pasteboard/releases/latest)
+[![Build](https://github.com/vdelachaux/4DPop-Pasteboard/actions/workflows/build.yml/badge.svg)](https://github.com/vdelachaux/4DPop-Pasteboard/actions/workflows/build.yml)
 
 
 # 4DPop Pasteboard
