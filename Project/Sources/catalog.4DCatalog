@@ -3,7 +3,7 @@
 <base name="4DPop Pasteboard" uuid="BEC201BB005B41FD859511E2B1CD36E1" collation_locale="fr">
 	<schema name="DEFAULT_SCHEMA"/>
 	<schema name="Schema_1"/>
-	<base_extra package_name="4DPop Pasteboard" structure_file_name="4DPop Pasteboard" data_file_path=":Data:4DPop Pasteboard.4DD" __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0">
+	<base_extra package_name="4DPop Pasteboard" structure_file_name="4DPop Pasteboard" data_file_path=":Data:4DPop Pasteboard.4DD">
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>
 </base>
