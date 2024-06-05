@@ -47,7 +47,6 @@
 	"4️⃣ 4DPop": {
 		"methods": [
 			"_4DPopPastebooard",
-			"COMPILER_4DPop",
 			"dragContainer",
 			"pasteboard"
 		]
