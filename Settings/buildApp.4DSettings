@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Preferences4D>
   <BuildApp>
     <BuildCompiled>False</BuildCompiled>
@@ -24,11 +24,11 @@
       <LastDataPathLookup>ByAppName</LastDataPathLookup>
       <BuildCSUpgradeable>False</BuildCSUpgradeable>
       <CurrentVers>1</CurrentVers>
-      <HardLink/>
+      <HardLink></HardLink>
       <AllowMacSiliconClient>False</AllowMacSiliconClient>
       <CompiledDatabaseFolder/>
       <MacCompiledDatabaseToWinIncludeIt>False</MacCompiledDatabaseToWinIncludeIt>
-      <MacCompiledDatabaseToWin/>
+      <MacCompiledDatabaseToWin></MacCompiledDatabaseToWin>
       <ServerEmbedsProjectDirectoryFile>False</ServerEmbedsProjectDirectoryFile>
     </CS>
     <BuildApplicationName>4DPop Pasteboard</BuildApplicationName>
@@ -47,6 +47,8 @@
       <ArrayLicenseMac>
         <ItemsCount>0</ItemsCount>
       </ArrayLicenseMac>
+      <AutomaticLicenseIntegration>False</AutomaticLicenseIntegration>
+      <EvaluationMode>False</EvaluationMode>
     </Licenses>
     <SignApplication>
       <MacSignature>True</MacSignature>
@@ -57,4 +59,5 @@
       <ItemsCount>0</ItemsCount>
     </ArrayExcludedModuleName>
   </BuildApp>
+
 </Preferences4D>

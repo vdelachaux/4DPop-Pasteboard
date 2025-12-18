@@ -1,40 +1,38 @@
-C_LONGINT:C283($0)
-
-C_LONGINT:C283($Lon_window; $Lon_buffer)
-C_TEXT:C284($Txt_buffer)
+var $0 : Integer
 
 $0:=0
 
 Case of 
 		
-		//________________________________________
+		// ________________________________________
 	: (Form event code:C388=On Drag Over:K2:13)
 		
 		// Animation
-		SVG GET ATTRIBUTE:C1056(*; "dropArea"; "dropZone"; "stroke-dasharray"; $Txt_buffer)
+		var $t : Text
+		SVG GET ATTRIBUTE:C1056(*; "dropArea"; "dropZone"; "stroke-dasharray"; $t)
 		
-		$Lon_buffer:=Num:C11(Substring:C12($Txt_buffer; 1; Position:C15(","; $Txt_buffer)-1))
-		$Txt_buffer:=String:C10(Choose:C955($Lon_buffer<=0; 20; $Lon_buffer-5))+",2,20,2"
+		var $dash : Integer:=Num:C11(Substring:C12($t; 1; Position:C15(","; $t)-1))
+		$t:=String:C10($dash<=0 ? 20 : $dash-5)+",2,20,2"
 		
 		SVG SET ATTRIBUTE:C1055(*; "dropArea"; "dropZone"; \
-			"stroke-dasharray"; $Txt_buffer)
+			"stroke-dasharray"; $t)
 		
-		//________________________________________
+		// ________________________________________
 	: (Form event code:C388=On Drop:K2:12)
 		
-		$Lon_window:=Current form window:C827
+		var $winRef:=Current form window:C827
 		
-		HIDE WINDOW:C436($Lon_window)
+		HIDE WINDOW:C436($winRef)
 		
 		pasteboard_viewer("dropPastboard")
 		
-		SHOW WINDOW:C435($Lon_window)
+		SHOW WINDOW:C435($winRef)
 		
-		//________________________________________
+		// ________________________________________
 	: (Form event code:C388=On Mouse Leave:K2:34)
 		
 		SVG SET ATTRIBUTE:C1055(*; "dropArea"; "dropZone"; \
 			"stroke-dasharray"; "20,2")
 		
-		//________________________________________
+		// ________________________________________
 End case 

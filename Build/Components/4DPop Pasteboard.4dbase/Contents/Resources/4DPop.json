@@ -1,6 +1,5 @@
 {
   "name": ":xliff:4DPopTool",
-  "media": "4DPop.png",
   "handler": "_4DPopPastebooard",
   "tools": [
     {
